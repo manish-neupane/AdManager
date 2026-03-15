@@ -1,0 +1,89 @@
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# Visual Studio files
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.userprefs
+
+# NuGet
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+!**/packages/build/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# MSBuild
+*.pidb
+*.svclog
+*.scc
+
+# Rider / JetBrains
+.idea/
+*.sln.iml
+
+# Roslyn
+*.rsuser
+
+# Test results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+*.VisualState.xml
+TestResult.xml
+nunit-*.xml
+
+# Coverage
+[Cc]overage*/
+*.coveragexml
+*.coverage
+*.opencover.xml
+
+# Publish
+[Pp]ublish/
+PublishScripts/
+
+# dotnet tools
+.dotnet/
+.config/dotnet-tools.json
+
+# ASP.NET / Blazor
+wwwroot/
+appsettings.*.json
+!appsettings.json
+!appsettings.Development.json
+
+# Entity Framework
+*.edmx.diagram
+
+# Secrets
+*.pfx
+*.p12
+secrets.json
+local.settings.json
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Misc
+*.cache
+*.orig
+__pycache__/
